@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "Medium";
+  src: url("../../fonts/Unbounded-Medium.woff2") format("woff2");
+}
+
+.menu {
+  padding: 15px 30px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 30px;
+  position: relative;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  position: relative;
+}
+
+.search-icon {
+  width: 46px;
+  height: 44px;
+  top: -84.5px;
+  left: 1063px;
+}
+
+.account-icon {
+  width: 77px;
+  height: 56px;
+  top: -84.5px;
+  left: 1063px;
+}
+
+.favorites-icon {
+  width: 53px;
+  height: 44px;
+  top: -84.5px;
+  left: 1063px;
+}
+
+.basket-icon {
+  width: 46.62px;
+  height: 44px;
+  top: -84.5px;
+  left: 1062px;
+}

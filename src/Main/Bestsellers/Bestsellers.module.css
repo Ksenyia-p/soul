@@ -1,0 +1,114 @@
+@font-face {
+  font-family: "Medium";
+  src: url("../../fonts/Unbounded-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Bold";
+  src: url("../../fonts/Unbounded-Bold.woff2") format("woff2");
+}
+
+.bestsellers {
+  padding: 2rem;
+}
+
+.bestsellers {
+  padding: 2rem;
+}
+
+.titles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.sectionTitleLeft,
+.sectionTitleRight {
+  font-size: 36px;
+  font-family: "Bold";
+  letter-spacing: 18px;
+  color: #515151;
+}
+
+.sectionTitleLeft {
+  transform: rotate(270deg);
+  transform-origin: bottom left;
+  position: relative;
+  top: 1232px;
+  left: 26px;
+}
+
+.sectionTitleRight {
+  transform: rotate(90deg);
+  transform-origin: top right;
+  position: relative;
+  top: 1294px;
+  left: 18px;
+}
+
+.products {
+  position: relative;
+  top: 706px;
+  left: 45px;
+  display: flex;
+  gap: 4.3rem;
+  background: #eff1f0;
+  padding: 1.4rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  height: 450px;
+  width: 1245px;
+  letter-spacing: 2px;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.productName {
+  font-family: "Medium";
+  font-size: 13px;
+  color: #515151;
+  margin: 0.05rem 0;
+}
+
+.productPrice {
+  font-family: "Medium";
+  font-size: 13px;
+  color: #515151;
+  margin: 0.5rem 0;
+}
+
+.productImg {
+  margin-bottom: 1rem; /* Можна регулювати відступ між зображенням і текстом */
+  width: 100%;
+  height: auto;
+}
+.viewAllButtonWrapper {
+  position: relative;
+  top: 740px;
+  left: 1050px;
+}
+
+.viewAllButton {
+  background-color: #eff1f0;
+  color: #515151;
+  font-family: "Medium";
+  height: 58px;
+  width: 255px;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 25px;
+  letter-spacing: 2px;
+  border: none;
+  box-shadow: 3px 3px 6px 0px #a5a8a6, -3px -3px 6px 0px #ffffffb2;
+  transition: box-shadow 0.5s ease-in-out;
+}
+
+.viewAllButton:hover {
+  box-shadow: -5px -5px 5px 0px #fbfffd inset, 4px 4px 4px 0px #c4c7c5 inset,
+    inset 0 0 5px rgba(0, 0, 0, 0.2);
+}

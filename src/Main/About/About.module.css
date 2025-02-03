@@ -1,0 +1,55 @@
+@font-face {
+  font-family: "Regular";
+  src: url("../../fonts/Unbounded-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Bold";
+  src: url("../../fonts/Unbounded-Bold.woff2") format("woff2");
+}
+
+.aboutSection {
+  padding: 50px;
+  text-align: left;
+  position: relative;
+  top: 830px;
+  left: 100px;
+}
+
+.heading {
+  font-family: "Bold";
+  font-size: 36px;
+  color: #515151;
+  margin-bottom: 20px;
+  letter-spacing: 0.48em;
+}
+
+.paragraph {
+  font-family: "Regular";
+  font-size: 24px;
+  color: #515151;
+  margin-bottom: 20px;
+  letter-spacing: 0.12em;
+}
+
+.learnMore {
+  position: relative;
+  top: 27px;
+  left: 30px;
+  background-color: #eff1f0;
+  color: #515151;
+  font-family: "Medium";
+  height: 58px;
+  width: 207px;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 25px;
+  letter-spacing: 2px;
+  border: none;
+  box-shadow: 3px 3px 6px 0px #a5a8a6, -3px -3px 6px 0px #ffffffb2;
+  transition: box-shadow 0.5s ease-in-out;
+}
+
+.learnMore:hover {
+  box-shadow: -5px -5px 5px 0px #fbfffd inset, 4px 4px 4px 0px #c4c7c5 inset,
+    inset 0 0 5px rgba(0, 0, 0, 0.2);
+}
