@@ -35,7 +35,7 @@ function Footer() {
             <p>Повернення та обмін</p>
           </div>
           <div className={styles.footerItem}>
-            <p>Договір публічної оферти3</p>
+            <p>Договір публічної оферти</p>
           </div>
         </div>
         <div className={styles.footerRight}>
