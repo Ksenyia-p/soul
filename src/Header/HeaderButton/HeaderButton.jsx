@@ -1,6 +1,6 @@
 import React from "react";
 import menuIcon from "../../icons/menu.svg";
-import "./HeaderButton.css";
+import "./HeaderButton.module.css";
 const HeaderButton = () => {
   return (
     <div className="menu-button">

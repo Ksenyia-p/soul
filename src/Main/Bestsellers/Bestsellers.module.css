@@ -83,7 +83,7 @@
 }
 
 .productImg {
-  margin-bottom: 1rem; /* Можна регулювати відступ між зображенням і текстом */
+  margin-bottom: 1rem;
   width: 100%;
   height: auto;
 }
