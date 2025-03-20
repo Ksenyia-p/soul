@@ -46,7 +46,7 @@
   flex-shrink: 0;
   position: relative;
   left: 1039px;
-  top: -10px;
+  top: 40px;
 }
 
 .footerLogoIcon {
@@ -61,8 +61,40 @@
   flex-direction: column;
 }
 
-.footerLeft,
-.footerCenter,
+.footerLeft {
+  flex: none;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: "Medium";
+  color: #515151;
+  font-style: normal;
+  letter-spacing: 2.08px;
+  position: relative;
+  line-height: 0.5;
+  top: 323px;
+  margin-left: -200px;
+  max-width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.footerCenter {
+  flex: 1;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: "Medium";
+  color: #515151;
+  font-style: normal;
+  letter-spacing: 2.08px;
+  position: relative;
+  line-height: 0.5;
+  right: 267px;
+  top: 323px;
+  width: max-content;
+  white-space: nowrap;
+}
+
 .footerRight {
   flex: 1;
   font-size: 13px;
@@ -70,19 +102,11 @@
   font-family: "Medium";
   color: #515151;
   font-style: normal;
-  line-height: 0.5;
   letter-spacing: 2.08px;
-  position: relative;
-  right: 267px;
-  top: 320px;
-  margin-right: -210px;
-}
-
-.footerRight {
   text-align: right;
   position: relative;
-  top: 220px;
-  right: 282.5px;
+  top: 230px;
+  right: 77.5px;
 }
 
 .footerIcons {
@@ -96,8 +120,8 @@
   height: 25px;
   color: #515151;
   position: relative;
-  top: 10px;
-  right: -380px;
+  top: 188px;
+  right: -376px;
 }
 
 .footerBottom {

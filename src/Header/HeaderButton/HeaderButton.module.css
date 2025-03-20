@@ -1,11 +1,10 @@
-.menu-button {
-  position: relative;
-  left: 200px;
-  top: 32px;
+.menuButton {
+  position: absolute;
+  left: 300px;
+  top: 50px;
 }
 
-.menu-icon {
-  position: relative;
+.menuIcon {
   width: 67px;
   height: 32px;
 }

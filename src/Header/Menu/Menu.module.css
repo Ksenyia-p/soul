@@ -53,15 +53,16 @@ body {
   top: -84.5px;
   left: 1063px;
 }
-/*
-Пошук
-*/
+
 .basket-icon {
   width: 46.62px;
   height: 44px;
   top: -84.5px;
   left: 1062px;
 }
+/*
+Пошук
+*/
 
 .search-overlay {
   position: fixed;

@@ -47,17 +47,17 @@ function Footer() {
           </div>
           <div className={styles.footerRight}>
             <p>Контакти</p>
-            <div className={styles.footerIcons}>
-              <a href="#instagram">
-                <img src={instagramIcon} alt="Instagram" />
-              </a>
-              <a href="#telegram">
-                <img src={telegramIcon} alt="Telegram" />
-              </a>
-              <a href="#tik-tok">
-                <img src={tikTokIcon} alt="TikTok" />
-              </a>
-            </div>
+          </div>
+          <div className={styles.footerIcons}>
+            <a href="#instagram">
+              <img src={instagramIcon} alt="Instagram" />
+            </a>
+            <a href="#telegram">
+              <img src={telegramIcon} alt="Telegram" />
+            </a>
+            <a href="#tik-tok">
+              <img src={tikTokIcon} alt="TikTok" />
+            </a>
           </div>
         </div>
       </div>
